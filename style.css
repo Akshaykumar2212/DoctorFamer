@@ -1,0 +1,196 @@
+
+body
+{
+	background-image: url("images/background.jpg");
+	background-size: 1366px auto;
+	background-repeat: no-repeat;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 12px;
+}
+
+.row{
+	margin: 0px !important;
+}
+
+::placeholder
+{
+	font-size: 13px;
+	color: #4a4a48 !important;
+}
+
+.btn-block + .btn-block {
+    margin-top: 0px;
+}
+
+.login-background
+{
+	background-color: white;
+	height: auto;
+	width: auto;
+	margin: 60px 30px 0px 30px;
+	padding: 40px 50px 20px 50px;
+	box-shadow:0px 0px 10px 5px #75cfb8;
+	border-radius: 0px;
+}
+
+.register-background
+{
+	background-color: white;
+	height: auto;
+	width: auto;
+	margin: 42px 30px 0px 30px;
+	padding: 30px 70px 20px 70px;
+	box-shadow:0px 0px 10px 5px #75cfb8;
+	border-radius: 0px;
+}
+
+.fsearch-background
+{
+	background-color: white;
+	height: auto;
+	width: auto;
+	margin: 50px 30px 0px 30px;
+	padding: 30px 60px 40px 60px;
+	box-shadow:0px 0px 10px 5px #75cfb8;
+	border-radius: 0px;
+}
+
+.fregister-background
+{
+	background-color: white;
+	height: auto;
+	width: auto;
+	margin: 42px 30px 0px 30px;
+	padding: 30px 70px 50px 70px;
+	box-shadow:0px 0px 10px 5px #75cfb8;
+	border-radius: 0px;
+}
+
+.login-borders{
+	border: 1px solid #929aab;
+	background-color: #474a56;
+	color: #ffffff;
+}
+
+.login-border{
+	border: 1px solid #929aab;
+}
+
+.br-0{
+	border-radius: 0px !important;
+}
+
+a{
+	text-decoration: none !important;
+}
+
+#myDiv {
+  animation: mymove 10s infinite;
+}
+
+@keyframes mymove {
+  0% {background-color: #000000;}
+  25% {background-color: #f2ead3;}
+  50% {background-color: #f67280;}
+  75% {background-color: #cdeeaa;}
+  100% {background-color: #317ae1;}
+}
+
+.table-responsive {
+    display: table;
+}
+
+/* The container */
+.radiobtn {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 17px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.radiobtn input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radiobtn:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.radiobtn input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radiobtn input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radiobtn .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+@media (max-width: 512px){
+	.btn-size{
+		text-align: center;
+	}
+
+	.radiobtn {
+		display: block;
+		position: relative;
+		padding-left: 35px;
+		margin-bottom: 12px;
+		cursor: pointer;
+		font-size: 15px;
+		margin-left: 0px !important;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+
+	.fsearch-background
+	{
+		background-color: white;
+		height: auto;
+		width: 400px !important;
+		margin: 50px 30px 0px 30px;
+		padding: 30px 43px 40px 43px;
+		box-shadow:0px 0px 10px 5px #75cfb8;
+		border-radius: 0px;
+	}
+}
